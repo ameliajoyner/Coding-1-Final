@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);;
+}
+
+nav {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.nav-link {
+    margin: 1rem;
+}
+
+/*Index CSS*/
+.card {
+    margin: 5rem;
+}
+/*About CSS*/
+/*Contact Page CSS*/
+h3 {
+    color: grey;
+}
+
+.send-button {
+    float: right
+}
+
+.send-button .button {
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    background-color: #00d2ff;
+    color: white;
+    padding: 11px;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.14286em;
+    transition-duration: 0.4s
+}
+
+.send-button .button:hover,
+.form .button:focus,
+.form .button:active {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1)
+}
+
+.send-button .button:active {
+    position: relative;
+    top: 1px;
+    left: 1px
+}
